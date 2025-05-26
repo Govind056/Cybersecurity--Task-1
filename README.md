@@ -12,11 +12,14 @@ Perform a TCP SYN scan using Nmap on my local network to identify open ports and
 
 ## IP Range Used:
 Local IP : 192.168.147.120
+
 Scanned Subnet : 192.168.147.0/24
 
 ## Commands Used 
 sudo apt update 
+
 ifconfig
+
 sudo nmap -sS 192.168.147.120 -oN scanresult.txt
 
 ## Steps Performed:
@@ -29,7 +32,7 @@ sudo nmap -sS 192.168.147.120 -oN scanresult.txt
 5. Took screenshots as proof of activity
   
 ## Security Risk Identified 
-53 DNS Risk of DNS Spoofing if not Secured
+53     DNS Risk of DNS Spoofing if not Secured
 
 ## Outcome:
 - Gained basic understanding of port scanning
