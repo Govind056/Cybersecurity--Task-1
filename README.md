@@ -11,15 +11,12 @@ Perform a TCP SYN scan using Nmap on my local network to identify open ports and
 - Wireshark (optional)
 
 ## IP Range Used:
-Local IP : 192.168.147.120
-
+Local IP : 192.168.147.120      
 Scanned Subnet : 192.168.147.0/24
 
 ## Commands Used 
-sudo apt update 
-
-ifconfig
-
+sudo apt update        
+ifconfig         
 sudo nmap -sS 192.168.147.120 -oN scanresult.txt
 
 ## Steps Performed:
@@ -37,6 +34,12 @@ sudo nmap -sS 192.168.147.120 -oN scanresult.txt
 ## Outcome:
 - Gained basic understanding of port scanning
 - Identified running services and network exposure
+  
+## Files included 
+scanresult.jpg
+ip result.jpg
+nmap result.jpg
+README.md - Command log
 
 ## Screenshot Proof:
 (Uploaded below in repo)
