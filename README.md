@@ -31,7 +31,8 @@ sudo nmap -sS 192.168.147.120 -oN scanresult.txt
 ## Security Risk Identified 
 53     DNS Risk of DNS Spoofing if not Secured
 
-## Outcome:
+## Key Skills Gained :
+- Network reconnaissance 
 - Gained basic understanding of port scanning
 - Identified running services and network exposure
   
