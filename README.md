@@ -36,9 +36,9 @@ sudo nmap -sS 192.168.147.120 -oN scanresult.txt
 - Identified running services and network exposure
   
 ## Files included 
-scanresult.jpg
-ip result.jpg
-nmap result.jpg
+scanresult.jpg        
+ip result.jpg               
+nmap result.jpg      
 README.md - Command log
 
 ## Screenshot Proof:
